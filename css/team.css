@@ -1,0 +1,94 @@
+/*
+ Student Name: Kavya Rajan
+ Student Number: C0919348
+ File Name: team
+ Date: 06 December 2023
+*/
+
+/* CSS reset */
+body, header, nav, main, footer, h1, div, img, ul, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+header img {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 1em;
+    display: block;
+    text-align: center;
+}
+
+/* styling navigation element*/
+
+nav {
+    text-align: center;
+    width: 98%;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    display: inline;
+    font-size: 1em;
+}
+
+/* styling main element*/
+main {
+    background-color: #fff;
+    padding: 0.5%;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 10px 5px 5px red;
+    border-radius: 1em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    display: block;
+}
+
+main img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1em;
+    display: block;
+}
+
+/* styling article and section elements */
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    width: 30%; 
+    margin: 1em;
+}
+
+section img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+/* styling aside element */
+aside {
+    width: 30%; 
+    margin: 1em;
+}
+
+/* styling footer element */
+footer p {
+    margin-top: 1em;
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}

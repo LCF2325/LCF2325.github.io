@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+ Student Name: Kavya Rajan
+ Student Number: C0919348
+ File Name: contact
+ Date: 07 December 2023
+-->
+
+<html lang="en">
+<head>
+    <title>Ovenza</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+<header>
+    <img src="images/banner.png" alt="banner of company">
+</header>
+
+<nav>
+    <div id="nav-logo">
+        <a href="index.html"><img src="images/logo.png" alt="company logo" height="90" width="90"></a>
+    </div>
+    <div id="nav-link">
+        <a href="index.html">Home</a>&nbsp;&nbsp;
+        <a href="about.html">About</a>&nbsp;&nbsp;
+        <a href="team.html">Our Team</a>&nbsp;&nbsp;
+        <a href="specials.html">Specials</a>&nbsp;&nbsp;
+        <a href="training.html">Training</a>&nbsp;&nbsp;
+        <a href="media.html">Media</a>&nbsp;&nbsp;
+        <a href="faqs.html">FAQs</a>&nbsp;&nbsp;
+        <a href="contact.html">Contact Us</a>&nbsp;&nbsp;
+    </div>
+</nav>
+
+<main>
+    <section>
+        <br><br><h1><u><b>Contact Us</b></u></h1><br><br>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <ol>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" size="30" autofocus>
+                    </li><br><br>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" size="30">
+                    </li><br><br>
+                    <li>
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject" size="30">
+                    </li><br><br>
+                    <li>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
+                    </li><br><br>
+                    <li>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </li><br><br>
+                    <li>
+						<label>Message Information:</label>
+						<input type="checkbox" id="checkbox1" name="Product enquiry" value="check1">
+						<label for="checkbox1">Product Enquiry</label>
+
+						<input type="checkbox" id="checkbox2" name="Career/Job posting enquiry" value="check2">
+						<label for="checkbox2">Career/Job Posting Enquiry</label>
+
+						<input type="checkbox" id="checkbox3" name="Complaint regarding a purchased product" value="check3">
+						<label for="checkbox3">Complaint Regarding a Purchased Product</label>
+
+						<input type="checkbox" id="checkbox4" name="Return/Exchange enquiry" value="check4">
+						<label for="checkbox4">Return/Exchange Enquiry</label>
+					</li><br><br>
+
+                   
+                    <li>
+                        <label for="file">File:</label>
+                        <input type="file" id="file" name="file">
+                    </li><br><br>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <ol>
+                    <li><br><br>
+                        <label for="contact-method">Preferred Contact Method:</label>
+                        <select id="contact-method" name="contact-method">
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </li>
+                    <li><br><br>
+                        <label>Subscribe to Newsletter:</label>
+                        <label for="subscribe-yes">
+                            <input type="radio" id="subscribe-yes" name="subscribe" value="yes"> Yes
+                        </label>
+                        <label for="subscribe-no">
+                            <input type="radio" id="subscribe-no" name="subscribe" value="no" checked> No
+                        </label>
+                    </li><br><br>
+                </ol>
+            </fieldset>
+			<br><br>
+            <button type="submit">Submit Request</button>
+            <button type="reset">Reset Form</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy;Copyright 2099. All Rights Reserved.</p>
+    <p><a href="mailto:ovenzabykavya.com">Request Information</a></p>
+    <p>Kavya Rajan&nbsp; &nbsp;     C0919348</p>
+</footer>
+
+</body>
+</html>
